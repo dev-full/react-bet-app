@@ -1,0 +1,33 @@
+.clam-top {
+    top: -15px;
+    position: absolute;
+    z-index: 9;
+    width: 70%;
+    margin: auto;
+    transition-property: top;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+  
+.clam-top:hover {
+    top: -55px;
+}
+
+.clam-bottom {
+    margin: auto;
+    position: absolute;
+    z-index: 8;
+    width: 80%;
+}
+
+/* Responsive */
+
+@media (max-width: 1192px) {
+    .clam-top {
+        width: 85%;
+    }
+    
+    .clam-bottom {
+        width: 100%;
+    }
+}

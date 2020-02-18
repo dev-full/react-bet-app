@@ -1,10 +1,9 @@
 import React from 'react';
-
-import './style.css';
+import './styles.css';
 
 const Header = () => {
   return (
-    <div className="navbar navbar-top-fixed">
+    <div className="navbar navbar-fixed">
       <div className="navbar-right" />
     </div>
   );
