@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './styles.css';
 
 const BetInput = props => {
-  const [betMount, setBetMount] = useState(0.04885313);
+  const [betMount, setBetMount] = useState(25);
 
   const handleChange = e => {
     setBetMount(e.target.value);

@@ -50,8 +50,7 @@ const BetTable = () => {
           multiplier: 'x' + bets.betAdded.payout / 4,
           profit: bets.betAdded.profit / 1000,
         });
-        if (data.length < 10)
-          return <span style={{ color: 'white' }}>Loading({data.length} / 10)...</span>;
+
         return (
           <BootstrapTable data={data}>
             <TableHeaderColumn
